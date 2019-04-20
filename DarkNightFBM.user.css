@@ -42,7 +42,7 @@ body {
 	color: #cecece;
 }
 
-._5f0v ._3rh0 .uiScrollableArea .fade .contentAfter {
+._5f0v, ._3rh0, .uiScrollableArea, .fade, .contentAfter {
 	background-color: #1e1e1e;
 }
 
