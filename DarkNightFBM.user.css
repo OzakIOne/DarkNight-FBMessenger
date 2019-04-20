@@ -10,8 +10,8 @@
 @updateURL		https://raw.githubusercontent.com/ozakione/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 ==/UserStyle== */
 
-@-moz-document domain("messenger.com")/*[[inbox]]*/ {
-body {
+@-moz-document url-prefix("https://www.facebook.com/messages/t") {
+	body {
 	color: #cecece;
 	background: #1e1e1e;
 }
