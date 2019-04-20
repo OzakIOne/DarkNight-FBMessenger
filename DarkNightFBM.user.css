@@ -25,12 +25,13 @@
 ==/UserStyle== */
 
 @-moz-document domain("messenger.com")/*[[inbox]]*/ {
-	body {
+body {
 	color: #cecece;
+	background: #1e1e1e;
 }
 
 ._4gd0 {
-	background: 1e1e1e;
+	background: #1e1e1e;
 }
 	
 a {
