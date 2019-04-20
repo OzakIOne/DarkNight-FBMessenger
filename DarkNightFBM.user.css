@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
-@namespace		cicerakes
-@version		1.0.1
-@description	A dark/night theme for Facebook's inbox/messages and messenger.com.
-@author			cicerakes
+@namespace		ozakione
+@version		1.0.2
+@description	A dark/night theme for Facebook's inbox/messages and messenger.com based on https://github.com/cicerakes/DarkNight-FBMessenger
+@author			ozakione
 @license		CC-BY-SA-4.0
-@homepageURL	https://github.com/cicerakes/DarkNight-FBMessenger/
-@supportURL		https://github.com/cicerakes/DarkNight-FBMessenger/issues
-@updateURL		https://raw.githubusercontent.com/cicerakes/DarkNight-FBMessenger/master/DarkNightFBM.user.css
+@homepageURL	https://github.com/ozakione/DarkNight-FBMessenger/
+@supportURL		https://github.com/ozakione/DarkNight-FBMessenger/issues
+@updateURL		https://raw.githubusercontent.com/ozakione/DarkNight-FBMessenger/master/DarkNightFBM.user.css
 @preprocessor	uso
 @var select		ccb		"Coloured Chat Bubbles" {
 	"Enabled - Darker Default Blue": "._nd_ ._hh7._6ybn{background-color: #006cd1;}",
@@ -33,7 +33,23 @@ body {
 ._4gd0 {
 	background: #1e1e1e;
 }
-	
+
+#u_0_j + div {
+    display: none;
+}
+
+#facebook ._-kb h1, #facebook ._-kb h2, #facebook ._-kb h3, #facebook ._-kb h4, #facebook ._-kb h5, #facebook ._-kb h6, #facebook ._-kb p {
+	color: #cecece;
+}
+
+#js44 {
+	background-color: #1e1e1e;
+}
+
+._4lh2 {
+	background-color: #1e1e1e;
+}
+
 a {
 	color: #0084ff;
 }
