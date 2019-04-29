@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name			Dark/Night Facebook Messenger
 @namespace		ozaki
-@version		1.0.3
+@version		1.0.4
 @description	A dark/night theme for Facebook's inbox/messages and messenger.com based on https://github.com/cicerakes/DarkNight-FBMessenger
 @author			ozaki
 @license		CC-BY-SA-4.0
@@ -20,8 +20,16 @@
 	background: #1e1e1e;
 }
 
-#u_0_j + div {
+#u_0_k + div {
     display: none;
+}
+
+._cy6._2s24 {
+	display: none;
+}
+
+._4kny._2s24 {
+	display: none;
 }
 
 #facebook ._-kb h1, #facebook ._-kb h2, #facebook ._-kb h3, #facebook ._-kb h4, #facebook ._-kb h5, #facebook ._-kb h6, #facebook ._-kb p {
